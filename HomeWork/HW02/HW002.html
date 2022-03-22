@@ -6,21 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>作業二-網頁復刻-排版練習</title>
     <style>
-
-        .top{
-            background-color: mediumblue;
-            text-align: right;
-            padding: 10px;
-            margin: auto;  
+        body{
+            margin: 0;
         }
-            .top a{
-                padding: 10px;
-                text-align: center;
-                color: white;
-                text-decoration: none;
-            }        
 
         .manu{
+            position: fixed;
+            width: 100%;  
+            padding: 40px;
             background-color: white;
             color:black;
             text-align: left;            
@@ -40,6 +33,23 @@
             .manu a:hover{
                 color: purple;
             }
+
+        .top{
+            position: fixed; 
+            width: 100%;           
+            background-color: mediumblue;
+            text-align: right;
+            padding: 10px;
+        }
+            .top a{
+                padding: 10px;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }        
+
+
         
 
         .img1{
@@ -148,14 +158,8 @@
 
 
 <body>
-    
-    <div class="top">        
-        <strong><a href="#">幫助中心</a></strong>
-        <strong><a href="#">登入網站</a></strong>        
-    </div>
-
     <nav class="manu">
-        <h1> <strong> SHOPLINE</strong></h1>
+        <h1> SHOPLINE </h1>
         <a href="#">開店服務</a>
         <a href="#">方案費用</a>
         <a href="#">客戶案例</a>
@@ -168,6 +172,12 @@
     <div class="img1">
         <img src="https://picsum.photos/800/600/?random=10">
     </div>
+    <div class="top">        
+        <a href="#">幫助中心</a>
+        <a href="#">登入網站</a>      
+    </div>
+
+
 
     <div class="par1">
         <div class="par1A">
