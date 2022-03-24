@@ -1,3 +1,4 @@
 {
-    "editor.accessibilityPageSize": 12
+    "editor.accessibilityPageSize": 12,
+    "editor.fontSize": 16;
 }
