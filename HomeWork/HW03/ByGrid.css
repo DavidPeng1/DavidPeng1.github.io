@@ -1,0 +1,169 @@
+/* Grid */
+    .box{
+        margin: auto;
+        width: 960px;
+    }
+
+    .merit{
+        width: 960px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(192,5px);
+        grid-template-rows: repeat(570,1px) 1fr
+    }
+
+    .merit-fun>.modify{
+        grid-column: 10 / span 143;  
+    }
+
+    .merit-comfortable>.modify{
+        grid-column: 6 / span 143;  
+    }
+
+    .merit-proud>.modify{
+        grid-column: 14 / span 143;  
+    }
+    .merit::after{
+        content: '';
+        background-color: #f3f3f3;
+        display: block;
+        grid-column: span 87 / -1;  
+        grid-row: 55/span 285;    
+    }
+
+    .info{
+        grid-column: 1/ 72;  
+        grid-row: 1/span 345;
+        z-index: 2;
+    }
+
+    .info>.textArea{
+        background-color: #111;
+        padding: 20px;
+        width: 315px;
+    }
+    .info>.textArea>h3{
+        font-size: 27px;
+        color: #eee;
+        font-weight: 500;
+        line-height: 2;
+    }
+    
+    .info>.textArea>p{
+        color: #dfdfdf;
+        font-size: 19px;
+        line-height: 1.6;
+        letter-spacing: 2px;
+    }
+
+    .info>.titleArea{
+        height: 140px;
+        background-color: #bb0404;    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .info>.titleArea>.bango{
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+        color: #f3f3f3;
+        width: 118px;
+        font-size: 133px;
+        writing-mode: vertical-lr;
+        font-weight: 100;    
+        margin: 2px 0px;
+    }
+    .info>.titleArea>h2{
+        margin: 22px auto 0px;    
+        color: #efefef;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .show{
+        grid-column: 37/ span 139;  
+        grid-row: 141/span 430;
+        z-index: 1;
+    }
+    .show img ,.show-icon img{
+        width: 100%;
+    }
+    .show-icon{
+        grid-column: 166 / span 11; 
+        grid-row: 350/span 48; 
+        z-index: 2;
+    }
+
+    .modify{
+        background-color: #eeeeee;
+        padding: 15px 20px;
+        grid-row: span 20/-1;
+        z-index: 2;
+    }
+
+    .modify>h4{
+        color: #bb0404;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .modify>h4::after{
+        content: '';
+        display: inline-block;
+        background-color: #bb0404;        
+        position: relative;
+        top: -8px;
+        left: 8px;    
+        height: 1px;
+        width: 464px;
+    
+    }
+    .modify h5{
+        display: inline-block;
+        background-color: #000;
+        color: #f3f3f3;
+        border-radius: 2px;    
+        font-size: 20px;
+        line-height: 1;
+        padding: 6px 5px 5px 7px;
+        margin: 5px;
+    }
+
+    .modify>li{
+        margin: 0 0 0 2px;
+    }    
+    .modify>li>p{
+        color: #555;
+        font-weight: 600;      
+        margin-left: 20px;
+        text-indent: -3px;
+        letter-spacing: 1px;
+    }
+    .modify>li>p::before{
+        content: '';
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        background-color: #a00;    
+        position: relative;
+        top: -5px;
+        left: -5px;
+    }
+
+    .merit:nth-child(even)::after{
+        grid-column: span 103/156;  
+        grid-row-end: span 405;
+    }
+    .merit:nth-child(even) .info{
+        grid-column: -72 / -1;  
+    }
+    .merit:nth-child(even)>.info>.titleArea{
+        flex-direction: row-reverse;
+    }
+    .merit:nth-child(even) .show{
+        grid-column: 2 / -53;  
+    }
+    .merit:nth-child(even) .show-icon{
+        grid-column: 1 / 12;  
+    }
+    .merit:nth-child(even) .modify{
+        grid-column: span 143 / -1;
+    }
