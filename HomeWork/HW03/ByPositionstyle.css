@@ -3,12 +3,14 @@
     margin: auto;
     width: 960px;
 }
+
 .merit {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .merit-fun>.modify {
     /* 切齊黑塊內緣 */
     left: 45px;
