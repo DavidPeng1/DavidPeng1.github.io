@@ -1,4 +1,4 @@
-作業 README.md 
+作業 Readme.md 練習紀錄
 [GitHub Pages 首頁](https://DavidPeng1.github.io)
 
 # 作業狀況
