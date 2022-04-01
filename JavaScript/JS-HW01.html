@@ -32,7 +32,8 @@
         }
 
         .box-info {
-            text-align: left;
+            line-height:2em; 
+            font-size: 30px;
         }
 
         h2 {
@@ -52,24 +53,10 @@
                 <img id="David" src="" alt="">
             </div>
             <div class="box-info">
-                <ul>
-                    <li>
-                        <h2>姓名:</h2>
-                        <p></p>
-                    </li>
-                    <li>
-                        <h2>Email:</h2>
-                        <p></p>
-                    </li>
-                    <li>
-                        <h2>學校:</h2>
-                        <p></p>
-                    </li>
-                    <li>
-                        <h2>興趣:</h2>
-                        <p></p>
-                    </li>
-                </ul>
+                <div id="name"></div>
+                <div id="Email"></div>
+                <div id="school"></div>
+                <div id="interest"></div>
             </div>
             <div class="showbox">
                 <img class="show" src="">
@@ -85,9 +72,11 @@
         const myImageUrl = "https://raw.githubusercontent.com/DavidPeng1/FileStorage/main/4.jpg"
         myImage.src = myImageUrl;
 
-        let p = document.querySelectorAll("p");
-        let content = ["無敵鐵金剛", "abc@123.com", "社會大學", "彈吉他, 看動漫"];
-        content.forEach((info, index) => { p[index].innerText = content[index] });
+        let myself = ["無敵鐵金剛","abc@123.com","社會大學","打敗雙面人"];
+        document.getElementById("name").innerText = "Name : " + myself[0];
+        document.getElementById("Email").innerText = "Email : " + myself[1];
+        document.getElementById("school").innerText = "School : " + myself[2];
+        document.getElementById("interest").innerText = "interest : " + myself[3];
 
         let showbox = document.querySelectorAll(".showbox img")
         const showArray = [
