@@ -7,7 +7,6 @@
     margin: auto;
     background-color: white;
     z-index: 2;
-    /* padding: 0px 6.25%; */
 }
 
 .header-top {
@@ -177,7 +176,6 @@
 }
 
 .more-services {
-    /* padding: 0px 6.25%; */
     padding: 0px;
 }
 
