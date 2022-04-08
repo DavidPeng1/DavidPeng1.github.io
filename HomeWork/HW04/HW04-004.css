@@ -119,6 +119,10 @@
     background-color: #0747a6;
 }
 
+.sample-picture{
+    margin: auto;
+}
+
 .web-sample-introduce img {
     width: 100%;
 }
