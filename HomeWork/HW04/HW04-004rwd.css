@@ -575,7 +575,7 @@
 
     .main-customer-service {
         display: flex;
-        flex-grow: 10;
+        flex-grow: 1;
         justify-content: space-between;
     }
 
@@ -594,7 +594,7 @@
     .web-sample-introduce {
         display: flex;
         flex-wrap: wrap;
-        padding-top: 220px;
+        padding-top: 150px;
     }
 
     .sample-introduce-test {
