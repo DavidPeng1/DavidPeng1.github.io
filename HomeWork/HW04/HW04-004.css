@@ -36,8 +36,7 @@
 }
 
 .company-logo {
-    text-indent: 101%;
-    overflow: hidden;
+    text-indent: 0%;
 }
 
 .main-customer-service {

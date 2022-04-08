@@ -559,12 +559,12 @@
     }
 
     .main-header {
-        padding: 30px 6.25%;
+        padding: 20px 6.25%;
         align-items: center;
     }
 
     .company-logo {
-        flex-grow: 1;
+        margin: auto;
     }
 
     .company-logo img {
