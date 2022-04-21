@@ -18,7 +18,7 @@
 <style>
     .container {
         width: 960px;
-        background-color: green;
+        background-color: white;
         border: 2px solid #000;
     }
 
@@ -34,7 +34,8 @@
         text-align: center;
         margin: 15px 0;
         padding: 15px 0;
-        background-color: #f93;
+        background-color: royalblue;
+        color: white;
         font-weight: 700;
         font-size: 30px;
         cursor: pointer;
@@ -45,7 +46,8 @@
     }
 
     .container lable.number {
-        background-color: #ccc;
+        background-color: #333;
+        color: white
     }
 
     .container lable:active {
@@ -65,40 +67,16 @@
         <input type="text" class="sub-calc border text-right w-100 py-3" value="" readonly="readonly"></input>
         <div class="row">
             <div class="col-3 col-lg-3">
-                <lable class="" data-math="%">%</lable>
+                <lable class="">C</lable>
             </div>
             <div class="col-3 col-lg-3">
                 <lable class="">CE</lable>
             </div>
             <div class="col-3 col-lg-3">
-                <lable class="">C</lable>
+                <lable class="">&lt;</lable>
             </div>
             <div class="col-3 col-lg-3">
-                <lable class="">&lt;=</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="number" data-num="7">7</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="number" data-num="8">8</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="number" data-num="9">9</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="operator" data-math="/">/</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="number" data-num="4">4</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="number" data-num="5">5</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="number" data-num="6">6</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="operator" data-math="*">*</lable>
+                <lable class="operator" data-math="+">+</lable>
             </div>
             <div class="col-3 col-lg-3">
                 <lable class="number" data-num="1">1</lable>
@@ -113,16 +91,40 @@
                 <lable class="operator" data-math="-">-</lable>
             </div>
             <div class="col-3 col-lg-3">
+                <lable class="number" data-num="4">4</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="number" data-num="5">5</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="number" data-num="6">6</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="operator" data-math="*">*</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="number" data-num="7">7</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="number" data-num="8">8</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="number" data-num="9">9</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="operator" data-math="/">/</lable>
+            </div>
+            <div class="col-3 col-lg-3">
+                <lable class="" data-math="=">=</lable>
+            </div>
+            <div class="col-3 col-lg-3">
                 <lable class="number" data-num="0">0</lable>
             </div>
             <div class="col-3 col-lg-3">
                 <lable class="number">.</lable>
             </div>
             <div class="col-3 col-lg-3">
-                <lable class="" data-math="=">=</lable>
-            </div>
-            <div class="col-3 col-lg-3">
-                <lable class="operator" data-math="+">+</lable>
+                <lable class="" data-math="%">%</lable>
             </div>
         </div>
     </div>
@@ -130,15 +132,14 @@
     <script>
         let subInput = document.querySelector(".sub-calc");
         let allInput = document.querySelector(".all-calc");
-
         let btnClick = document.querySelector(".row");
         let subnum = "";
         let regex = /\+|-|\*|\/+/;
+        
         btnClick.addEventListener("click", function (e) {
             switch (e.target.textContent) {
                 case "=":
                     equal();
-
                     break;
                 case "C":
                     subInput.value = "";
@@ -147,7 +148,7 @@
                 case "CE":
                     subInput.value = "";
                     break;
-                case "<=":
+                case "<":
                     subInput.value = subInput.value.substr(
                         0,
                         subInput.value.length - 1
@@ -184,7 +185,6 @@
                     if (!/\d+/.test(subInput.value)) {
                         return;
                     }
-
                     if (allInput.value.length === 0) {
                         allInput.value += subInput.value + e.target.textContent;
                         subInput.value = "";
@@ -246,7 +246,6 @@
                     } else {
                         subInput.value += e.target.dataset.num;
                     }
-
                     break;
                 default:
                     break;
