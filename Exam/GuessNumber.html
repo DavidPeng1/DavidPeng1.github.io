@@ -28,14 +28,14 @@
     }
 
     .game .list-group span {
-        background-color: #ff6666;
-        color: #fff;
+        background-color: red;
+        color: white;
         padding: 5px 10px;
         border-radius: 10%;
     }
 
     .game .list-group span.correct {
-        background-color: #66ff66;
+        background-color: green;
     }
 </style>
 
@@ -48,13 +48,10 @@
                     <button class="btn btn-primary btn-lg btn-start" type="submit">開始遊戲</button>
                     <button class="btn btn-primary btn-lg btn-reset" type="submit" data-toggle="modal"
                         data-target="#exampleModal">放棄重來</button>
-                    <!-- <button class="btn btn-primary btn-lg btn-quest" type="submit">查看答案</button> -->
-                    <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg btn-quest" data-toggle="modal"
                         data-target="#exampleModal">
                         查看答案
                     </button>
-                    <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -63,7 +60,6 @@
                                     <h5 class="modal-title" id="exampleModalLabel">答案</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <!-- 公佈答案 -->
                                     <h2 class="text-center"></h2>
                                 </div>
                                 <div class="modal-footer text-center">
@@ -76,8 +72,6 @@
             </div>
             <h2 class="text-center">遊戲紀錄</h2>
             <ul class="list-group my-3">
-                <!-- 猜測紀錄 -->
-                <!-- <li class="list-group-item">Cras justo odio</li> -->
             </ul>
             <div class="input-group mb-3">
                 <input type="text" maxlength="4" class="form-control input-guess" placeholder="請輸入四位數字猜測"
@@ -112,7 +106,7 @@
             let answer = document.querySelector(".input-guess").value;
             let answerAry = [];
             for (let item of answer) {
-                //將字串轉成數字陣列
+        //將字串轉成數字陣列
                 answerAry.push(parseInt(item));
             }
             let liAnswer = document.createElement("li");
@@ -127,15 +121,13 @@
                 return;
             }
 
-            // 取交集，計算a b
+        // 取交集，計算a b
             let intersect = quest.filter((value) => answer.includes(value));
             let a = intersect.filter((x) => quest.indexOf(x) == answerAry.indexOf(x))
                 .length;
             let b = intersect.length - a;
-
             liAnswer.setAttribute("Class", "list-group-item");
             liAnswer.innerHTML = `<span>${a}A${b}B</span> ${answer}`;
-
             ulAnswer.appendChild(liAnswer);
             if (a === 4) {
                 let correctSpan = document.querySelector(
@@ -146,7 +138,6 @@
             }
             document.querySelector(".input-guess").value = "";
         }
-
         // 開始遊戲按鈕
         btnStart.addEventListener("click", function () {
             gameSet();
@@ -170,7 +161,6 @@
 
         // 查看答案按鈕
         document.querySelector(".btn-quest").addEventListener("click", function () {
-            //公佈答案
             document.querySelector(".modal-body h2").textContent = quest.join("");
         });
 
