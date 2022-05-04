@@ -2162,55 +2162,55 @@
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
 
-
-
-
-</body>
     <script>
+
         let heroArray = [];
         let container;
         let btnCreateHeroArray, btnListHero, btnTableHero;
+
         window.onload = function () {
-            container =  document.querySelector("#container");
+            container = document.querySelector("#container");
             btnCreateHeroArray = document.getElementById("createhero");
             btnListHero = document.getElementById("listhero");
             btnTableHero = document.getElementById("tablehero");
             btnCreateHeroArray.addEventListener("click", function () {
                 //alert("從DOM建立英雄人物陣列資料後清除container");
-                
                 alert("從DOM建立英雄人物陣列資料成功！");
-                //1.從DOM建立英雄人物資料
-                let cards = container.querySelectorAll('.card')
-                cards.forEach((card,index) => {
-                    let id  = index + 1;
-                    let heroname = card.querySelector('.card-title').innerHTML;
-                    let content = card.querySelector(".card-text").innerHTML;
-                    let imgurl = card.querySelector("img").src;
+                //1.從DOM建立英雄人物資料 - (HOMEWORK)
+                let herogroup = container.querySelectorAll(".card");
+                herogroup.forEach((item, index) => {
+                    let number = index +1;
+                    let id = item.querySelector(".card-title").innerText;
+                    let text = item.querySelector(".card-text").innerText;
+                    let url = item.querySelector(".card-img-top").src;
                     let hero = {
-                        "id" : id,
-                        "heroname":heroname,
-                        "content": content,
-                        "imgurl" : imgurl
+                        "index": number,
+                        "id": id,
+                        "text": text,
+                        "url": url
                     }
                     heroArray.push(hero);
-                    
+                    console.log(number, id, text, url);
                 });
                 //2.清除container
-                container.innerHTML = "";
+                document.querySelector("#container").innerHTML = "";
             });
+
             btnListHero.addEventListener("click", function () {
-                if(heroArray.length==0){
+                if (heroArray.length == 0) {
                     alert("請先建立陣列資料");
                     return;
                 }
-                alert("以文字迭代英雄人物資料！");
-                // document.body.innerHTML= "";
-                heroArray.forEach((hero,index) => {
-                    let p = document.createElement("p");
-                    p.innerText = JSON.stringify(hero);
-                    container.appendChild(p);
-                });
+                //alert("以文字迭代英雄人物資料！"); (HOMEWORK)
+                heroArray.forEach((hero, index) => {
+                    let p1 = document.createElement("p")
+                    p1.innerText = JSON.stringify(hero);
+                    document.body.appendChild(p1)
+                })
             });
+
+            // ************************************
+            // Home Work 2 **********************
             btnTableHero.addEventListener("click", function(){
                 if(heroArray.length==0){
                     alert("請先建立陣列資料");
@@ -2224,13 +2224,13 @@
                 let theadTR = document.createElement('tr');
                 Object.keys(heroArray[0]).forEach(item =>{
                     let th = document.createElement('th');
-                    // let title = Object.keys(item);
+
                     th.innerText = item;
                     theadTR.append(th);
                 });
                     heroArray.forEach(crad => {
                     let cradValues =Object.values(crad);
-                   /*  console.log(cradValues); */
+
                     let tbodyTR = document.createElement('tr');
                     cradValues.forEach(item =>{
                         let tbodyTD = document.createElement('td');
@@ -2244,5 +2244,9 @@
                 container.append(table);
             }); 
         }
+
     </script>
+
+</body>
+
 </html>
