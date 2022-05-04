@@ -5,7 +5,7 @@ README.md 的編寫練習
 比大標題低一級的是中標題，也就是顯示出來比大標題小點。
 
 
-[GitHub Pages 首頁](https://DavidPeng1.github.io)
+[我在 GitHub 上的 Bulid School 作業清單](https://DavidPeng1.github.io)
 --------------------------------------------------
 在文字下面加上 下劃線 - ，那麼上方的文字就變成了中標題，同樣的 下劃線個數無限制。
 
