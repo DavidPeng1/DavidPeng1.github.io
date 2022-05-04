@@ -5,7 +5,7 @@ README.md 的編寫練習
 比大標題低一級的是中標題，也就是顯示出來比大標題小點。
 
 
-[我在 GitHub 上的 Bulid School 作業清單](https://DavidPeng1.github.io)
+[我在 GitHub 上的清單](https://DavidPeng1.github.io)
 --------------------------------------------------
 在文字下面加上 下劃線 - ，那麼上方的文字就變成了中標題，同樣的 下劃線個數無限制。
 
@@ -25,17 +25,17 @@ README.md 的編寫練習
 -----------------------------------------
 在`[]`內寫入超連結要顯示的文字,超連結部分在`()`內寫入連結的地址
 <br>
-範例 : `[GitHub Pages 首頁](https://DavidPeng1.github.io)`
+範例 : `[我在 GitHub 上的清單](https://DavidPeng1.github.io))`
 <br>
 顯示結果如下
 <br>
-[GitHub Pages 首頁](https://DavidPeng1.github.io)
+[我在 GitHub 上的清單](https://DavidPeng1.github.io)
 <br>
 還可以在滑鼠停在超連結文字時, 出現提示文字, 例如要顯示作業的結果。
 <br>
-範例 : `[GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")`
+範例 : `[我在 GitHub 上的清單](https://DavidPeng1.github.io "Bulid School 作業清單")`
 <br>
-[GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")
+[我在 GitHub 上的清單](https://DavidPeng1.github.io "Bulid School 作業清單")
 
 
 插入圖片
