@@ -25,7 +25,7 @@ README.md 的編寫練習
 -----------------------------------------
 在`[]`內寫入超連結要顯示的文字,超連結部分在`()`內寫入連結的地址
 <br>
-範例 : `[我在 GitHub 上的清單](https://DavidPeng1.github.io))`
+範例 : `[我在 GitHub 上的清單](https://DavidPeng1.github.io)`
 <br>
 顯示結果如下
 <br>
