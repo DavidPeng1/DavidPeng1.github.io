@@ -38,13 +38,15 @@
 
 插入圖片
 ---------------------------------------------
-驚嘆號! + 方括號[ ] + 括號( ) 
+驚嘆號! + 方括號[ ] + 括號(url) 
 <br>
 範例 : `![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)`
 <br>
 ![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 <br>
 還可以在滑鼠停在超連結文字時, 出現提示文字, 例如要顯示作業的結果。
+驚嘆號! + 方括號[ ] + 括號(url+提示文字 ) 
 範例 : `![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Google")`
 <br>
-![google]https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Google"
+![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Google")
+<br>
