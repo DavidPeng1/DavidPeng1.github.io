@@ -41,5 +41,6 @@
 驚嘆號! + 方括號[ ] + 括號( ) 
 <br>
  範例 : 
-![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
- 
+`![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)`
+ <br>
+ ![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
