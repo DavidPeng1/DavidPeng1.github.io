@@ -42,7 +42,7 @@
 ---------------------------------------------
 驚嘆號! + 方括號[ ] + 括號(url) 
 <br>
-範例 : `![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)`
+範例 : `![](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)`
 <br>
 ![](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 <br>
