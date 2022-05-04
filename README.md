@@ -21,7 +21,9 @@
 
 文字超連結
 -----------------------------------------
- [ 要顯示的文字 ]( 連結的地址 )
+ 要顯示的文字 ( 連結的地址 )
  [GitHub Pages 首頁](https://DavidPeng1.github.io)
+ <br>
  還可以加上一個滑鼠懸停顯示的文字。
  [GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")
+ <br>
