@@ -52,8 +52,9 @@
 <br>
 GitHub倉庫裡的圖片, 與上面的格式基本一致的，所不同的就是括號裡的URL該怎麼寫。
 <br>
-範例 : `https://github.com/ 你的使用者名稱 / 你的專案名 / raw / 分支名 / 存放圖片的資料夾 / 該資料夾下的圖片`
+範例 : `https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp`
 <br>
-範例 : `https://github.com/DavidPeng1/ 你的專案名 / raw / 分支名 / 存放圖片的資料夾 / 該資料夾下的圖片`
-<br>
+![Bulid School Logo](https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp)
+
+
 
