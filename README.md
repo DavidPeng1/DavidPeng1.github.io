@@ -50,3 +50,8 @@
 <br>
 ![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Google")
 <br>
+GitHub倉庫裡的圖片, 與上面的格式基本一致的，所不同的就是括號裡的URL該怎麼寫。
+<br>
+範例 : `https://github.com/ 你的使用者名稱 / 你的專案名 / raw / 分支名 / 存放圖片的資料夾 / 該資料夾下的圖片`
+<br>
+
