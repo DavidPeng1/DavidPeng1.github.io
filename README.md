@@ -44,7 +44,7 @@
 <br>
 範例 : `![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)`
 <br>
-![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+![](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 <br>
 GitHub倉庫裡的圖片, 與上面的格式基本一致的，所不同的就是括號裡的URL該怎麼寫。
 還可以在滑鼠停在超連結圖片時, 出現提示文字, 例如要顯示Bulid School Logo。
@@ -52,7 +52,9 @@ GitHub倉庫裡的圖片, 與上面的格式基本一致的，所不同的就是
 <br>
 範例 : `https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp`
 <br>
-![Bulid School Logo](https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp "Bulid School Logo")
+![](https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp "Bulid School Logo")
+
+
 
 
 
