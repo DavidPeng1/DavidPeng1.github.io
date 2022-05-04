@@ -18,4 +18,3 @@ _斜體字_
 
 ~~刪除線~~ ;  ~ [Shift]+Tab上方
 
-<a href="https://davidpeng1.github.io/HomeWork/HW01/HW001.html">作業一 - 課表</a>
