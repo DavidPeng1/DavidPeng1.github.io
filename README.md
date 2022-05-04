@@ -21,26 +21,25 @@
 
 文字超連結
 -----------------------------------------
- 在`[]`內寫入超連結要顯示的文字,超連結部分在`()`內寫入連結的地址
- <br>
- 範例 : `[GitHub Pages 首頁](https://DavidPeng1.github.io)`
- <br>
- 顯示結果如下
- <br>
- [GitHub Pages 首頁](https://DavidPeng1.github.io)
- <br>
- 還可以在滑鼠停在超連結文字時, 加上一個懸停顯示的文字, 例如要顯示作業的結果。
- <br>
- 範例 : `[GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")`
- <br>
- [GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")
- 
+在`[]`內寫入超連結要顯示的文字,超連結部分在`()`內寫入連結的地址
+<br>
+範例 : `[GitHub Pages 首頁](https://DavidPeng1.github.io)`
+<br>
+顯示結果如下
+<br>
+[GitHub Pages 首頁](https://DavidPeng1.github.io)
+<br>
+還可以在滑鼠停在超連結文字時, 加上一個懸停顯示的文字, 例如要顯示作業的結果。
+<br>
+範例 : `[GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")`
+<br>
+[GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")
 
- 插入圖片
+
+插入圖片
 ---------------------------------------------
 驚嘆號! + 方括號[ ] + 括號( ) 
 <br>
- 範例 : 
-`![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)`
- <br>
- ![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+範例 : `![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)`
+<br>
+![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
