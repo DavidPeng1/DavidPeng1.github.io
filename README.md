@@ -22,6 +22,8 @@
 文字超連結
 -----------------------------------------
  在`[]`內寫入超連結要顯示的文字,超連結部分在`()`內寫入連結的地址
+ <p> 範例 : `[GitHub Pages 首頁](https://DavidPeng1.github.io)` </p>
+ <p> 結果如下 </p>
  [GitHub Pages 首頁](https://DavidPeng1.github.io)
  <br>
  還可以加上一個滑鼠懸停顯示的文字。
