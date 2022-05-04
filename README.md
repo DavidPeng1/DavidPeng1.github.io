@@ -36,10 +36,10 @@
  [GitHub Pages 首頁](https://DavidPeng1.github.io "作業的結果")
  
 
- 採用樹狀結構的縮排表示
+ 插入圖片
 ---------------------------------------------
->資料結構
->>樹
->>>二叉樹
->>>>平衡二叉樹
->>>>>滿二叉樹
+驚嘆號! + 方括號[ ] + 括號( ) 
+<br>
+ 範例 : 
+![google](https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+ 
