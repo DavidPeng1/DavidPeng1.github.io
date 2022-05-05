@@ -1,0 +1,114 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <title>隨機選號</title>
+
+    <style>
+        .connter {
+            width: 800px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .wrapper {
+            width: 100%;
+            border: 20px solid green;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        .box li {
+            display: inline-block;
+            width: 90px;
+            height: 50px;
+            border: 2px solid blue;
+            border-radius: 15px;
+            line-height: 50px;
+            margin: 5px;
+
+        }
+
+        .wrapper button {
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            margin: 20px;
+            background-color: green;
+            font-size: 20px;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="connter">
+        <div class="wrapper">
+            <div>
+                <h2>隨 機 選 號</h2>
+            </div>
+            <ul class="box"></ul>
+            <button class="start">開始</button>
+            <button class="stop">停止</button>
+            <div id="data"></div>
+        </div>
+    </div>
+</body>
+
+<script>
+    // 定義變數
+    var box = document.getElementsByClassName('box')[0];
+    var start = document.getElementsByClassName('start')[0];
+    var stop = document.getElementsByClassName('stop')[0]
+    var oLi = document.getElementsByTagName('li');
+
+    // 資料準備
+    var nameString = new String("01號,02號,03號,04號,05號,06號,07號,08號,09號,10號,11號,12號,13號,14號,15號,16號,17號,18號,19號,20號,21號,22號,23號,24號,25號,26號,27號,28號,29號,30號,31號,32號,33號,34號,35號,36號,37號,38號,39號,40號,41號,42號");
+    var nameArr = nameString.split(",");
+
+    // 獲取每個學生姓名添加到標籤中，自動解析html標籤
+    var str = "";
+    for (let i = 0; i < nameArr.length; i++) {
+        str += "<li >" + nameArr[i] + "</li>"
+    }
+    box.innerHTML = str;
+
+    // 開始按鈕點擊
+    var timer = null;
+    start.onclick = function () {
+        // 設置計數器
+        timer = setInterval(function () {
+
+            // 根據人數範圍產生隨機亂數
+            var i = Math.floor(Math.random() * nameArr.length);
+            // 通過for循環清空style屬性
+            for (var j = 0; j < oLi.length; j++) {
+                oLi[j].removeAttribute("style");
+            }
+            // 亂數時間與li的背景顏色與文字顏色
+            oLi[i].style.background = "red";
+            oLi[i].style.color = "white";
+        }, 50);
+    };
+    // 點擊停止
+    stop.onclick = function () {
+        // 清空計數器 - 停止點名
+        clearInterval(timer);
+    }
+    // 頁面時間初始化
+    window.onload = function () {
+        datatime();
+    }
+    // 頁面時間
+    setInterval(datatime, 1000);
+
+    function datatime() {
+        let data = new Date();
+        let dataString = "現在的時間是：" + data.toLocaleString();
+        document.getElementById("data").innerHTML = dataString;
+    }
+</script>
