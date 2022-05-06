@@ -1,23 +1,5 @@
 作業清單
 ==================================================
-
-
-文字超連結
------------------------------------------
-在`[]`內寫入超連結要顯示的文字,超連結部分在`()`內寫入連結的地址
-<br>
-範例 : `[我在 GitHub 上的清單](https://DavidPeng1.github.io)`
-<br>
-顯示結果如下
-<br>
-[我在 GitHub 上的清單](https://DavidPeng1.github.io)
-<br>
-還可以在滑鼠停在超連結文字時, 出現提示文字, 例如要顯示作業的結果。
-<br>
-範例 : `[我在 GitHub 上的清單](https://DavidPeng1.github.io "Bulid School 作業清單")`
-<br>
-[我在 GitHub 上的清單](https://DavidPeng1.github.io "Bulid School 作業清單")
-<br>
     <ul>
         <li>
             <a href="./HomeWork/HW01/HW01.html">作業01 課表 - 表單表格練習</a>
