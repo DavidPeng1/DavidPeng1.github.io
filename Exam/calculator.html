@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Calculator</title>
+    <style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		:root{
+			--base:11px;
+			--base2: calc( var(--base) *2 );
+			font-size: var(--base2);
+		}
+
+		.container{
+			min-width: 333px;
+			background-color: #def !important;
+		}
+
+		#keyboard > .row{
+			/* margin-top: -1rem; */
+            --bs-gutter-x: 1rem;
+		}
+
+    </style>
+</head>
+
+<body>
+    <p>目前存著左運算元：<span id = "showL"></span></p>
+    <p>目前存著的運算子：<span id = "showOp"></span></p>
+
+    <div class="container border border-dark bg-light p-3">
+        <input type="text" class="text-center w-100 p-3" value="">
+
+        <div id="keyboard" class="">
+            <div class="row row-cols-4">
+                <div class="col mt-3 w-50">
+                    <button class="w-100 btn btn-danger" id="reset">C</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-warning" id="back">></button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-primary">+</button>
+                </div>
+                
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">1</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">2</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">3</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-primary">-</button>
+                </div>
+
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">4</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">5</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">6</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-primary">x</button>
+                </div>
+
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">7</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">8</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">9</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-primary">/</button>
+                </div>
+
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-success" id="equal">=</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark">0</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-dark " id="dot">.</button>
+                </div>
+                <div class="col mt-3">
+                    <button class="w-100 btn btn-primary">%</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script>
+        //沒有要像一般計算機那樣可以連續計算
+        //先準備好 UI 和 資料
+        const showL = document.querySelector('#showL')
+        const showOp = document.querySelector('#showOp')
+        //UI
+        
+        const input = document.querySelector('input')
+        
+        const btn_reset = document.querySelector('#reset')
+        const btn_back = document.querySelector('#back')
+
+        const btn_dot = document.querySelector('#dot.btn')
+        //.btn-info
+        const btns_int = document.querySelectorAll('.btn.btn-dark')
+
+        const btns_op = document.querySelectorAll('.btn.btn-primary')
+        const btn_equal = document.querySelector('#equal')
+
+        //Data
+        let currentOperator,
+            operand_L
+
+        const operations = [
+            { operator: '+', calc: (a, b) => a + b },
+            { operator: '-', calc: (a, b) => a - b },
+            { operator: 'x', calc: (a, b) => a * b },
+            { operator: '/', calc: (a, b) => a / b },
+            { operator: '%', calc: (a, b) => a % b },
+        ]
+
+        reset()
+
+        window.onload = function() {
+            //重置鈕
+            btn_reset.onclick = reset
+
+            //後退鈕
+            btn_back.addEventListener('click', ()=>{
+                let tmp = input.value;
+                
+                // input.value = tmp.substring(0,tmp.length-1);  
+                //會將負數看成0，並自動喬兩個數值的大小
+
+                input.value = tmp.slice(0,-1);
+                //負數會+陣列長度，捕到正的為止
+            });
+
+            //小數點鈕
+            btn_dot.addEventListener('click', (event)=>{ 
+                //若已經有小數點，就不keyIn
+                if( input.value.includes(".") ){
+                    event.stopImmediatePropagation()
+                    return
+                }
+                
+                //空的要先補0
+                if( input.value == '')
+                    input.value = '0';
+
+                // keyIn(e)
+                // justPressOp = false;
+            });
+
+            //數字鈕"們"
+            btns_int.forEach( btn => {
+                btn.onclick = e => {  
+                    if(justPressOp){
+                        input.value = e.target.innerText;
+                    }
+                    else{
+                        input.value += e.target.innerText
+                    }
+                    // keyIn(e)
+                    justPressOp = false;
+                }
+            })
+
+            //符號鈕"們"
+            btns_op.forEach( btn => {
+                btn.onclick = () => {
+                    if(!justPressOp){
+                        input.value = calc()    
+    
+                        justPressOp = true;
+                    }
+
+                    currentOperator = btn.innerText
+                    show()
+                }
+            })
+
+            //等於鈕
+            btn_equal.onclick = function() {
+                input.value =  calc()
+
+                justPressOp = true;
+                currentOperator = ''
+                show()
+            }
+        }
+
+
+        function reset(){
+            input.value = ''
+            operand_L = 0
+            currentOperator = ''
+
+            justPressOp = false; 
+            show()
+        }
+
+        // function keyIn(e){
+        // }
+
+        function calc(){
+            let operand_R = parseFloat(input.value) 
+
+            if(currentOperator == ''){
+                operand_L = operand_R
+            }
+            else{
+                let operation = operations.find(x => x.operator == currentOperator)
+    
+                operand_L = operation.calc(operand_L, operand_R)
+            }
+
+            show()
+            return operand_L
+        }
+
+        function show(){
+            showL.innerText = operand_L
+            showOp.innerText = currentOperator
+        }
+    </script>
+</body>
+
+</html>
