@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7239bd7c-4463-424d-a11f-5d03b98d4a52": {
+      "ProjectGuid": "7239bd7c-4463-424d-a11f-5d03b98d4a52",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 0
+    },
+    "ac5165a0-2e4b-46e0-ba3a-adedca934c65": {
+      "ProjectGuid": "ac5165a0-2e4b-46e0-ba3a-adedca934c65",
+      "DisplayName": "Q1_StringReplace",
+      "ColorIndex": 1
+    },
+    "0e385f6c-3cb7-422b-acd9-411126940542": {
+      "ProjectGuid": "0e385f6c-3cb7-422b-acd9-411126940542",
+      "DisplayName": "Q2_Palindrome",
+      "ColorIndex": 2
+    },
+    "381ec213-0556-453e-a4b6-2e51e2547084": {
+      "ProjectGuid": "381ec213-0556-453e-a4b6-2e51e2547084",
+      "DisplayName": "Q3_PrimeNumber",
+      "ColorIndex": 3
+    },
+    "18463fc2-0786-41cd-8e1a-0fb6d0dec367": {
+      "ProjectGuid": "18463fc2-0786-41cd-8e1a-0fb6d0dec367",
+      "DisplayName": "Q4_LifeNumber",
+      "ColorIndex": 4
+    },
+    "6fab2b1e-e789-4f82-99ce-836aea8ba328": {
+      "ProjectGuid": "6fab2b1e-e789-4f82-99ce-836aea8ba328",
+      "DisplayName": "Q5_NumberTriangle",
+      "ColorIndex": 5
+    },
+    "29154453-4997-441a-afb5-efb1ec8ed8ac": {
+      "ProjectGuid": "29154453-4997-441a-afb5-efb1ec8ed8ac",
+      "DisplayName": "X1_CourseSelection",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 7
+}

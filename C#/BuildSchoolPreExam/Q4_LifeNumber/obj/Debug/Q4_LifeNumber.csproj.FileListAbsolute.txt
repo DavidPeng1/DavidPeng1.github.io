@@ -1,0 +1,8 @@
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\bin\Debug\Q4_LifeNumber.exe.config
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\bin\Debug\Q4_LifeNumber.exe
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\bin\Debug\Q4_LifeNumber.pdb
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\obj\Debug\Q4_LifeNumber.csproj.SuggestedBindingRedirects.cache
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\obj\Debug\Q4_LifeNumber.csproj.CoreCompileInputs.cache
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\obj\Debug\Q4_LifeNumber.exe
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\obj\Debug\Q4_LifeNumber.pdb
+C:\BuildSchool\C#\BuildSchoolPreExam\Q4_LifeNumber\obj\Debug\Q4_LifeNumber.csproj.AssemblyReference.cache

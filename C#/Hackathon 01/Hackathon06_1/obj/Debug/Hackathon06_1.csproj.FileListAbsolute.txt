@@ -1,0 +1,8 @@
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\bin\Debug\Hackathon06_1.exe.config
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\bin\Debug\Hackathon06_1.exe
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\bin\Debug\Hackathon06_1.pdb
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\obj\Debug\Hackathon06_1.csproj.AssemblyReference.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\obj\Debug\Hackathon06_1.csproj.SuggestedBindingRedirects.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\obj\Debug\Hackathon06_1.csproj.CoreCompileInputs.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\obj\Debug\Hackathon06_1.exe
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon06_1\obj\Debug\Hackathon06_1.pdb

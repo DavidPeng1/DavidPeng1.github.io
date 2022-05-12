@@ -1,0 +1,11 @@
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\bin\Debug\Hackathon05.exe.config
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\bin\Debug\Hackathon05.exe
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\bin\Debug\Hackathon05.pdb
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.csproj.AssemblyReference.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.csproj.SuggestedBindingRedirects.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.Form1.resources
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.Properties.Resources.resources
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.csproj.GenerateResource.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.csproj.CoreCompileInputs.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.exe
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05\obj\Debug\Hackathon05.pdb

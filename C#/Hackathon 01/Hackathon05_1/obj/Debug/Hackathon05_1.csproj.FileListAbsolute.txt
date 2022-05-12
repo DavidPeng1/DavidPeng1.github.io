@@ -1,0 +1,12 @@
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\bin\Debug\生命靈數.txt
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\bin\Debug\Hackathon05_1.exe.config
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\bin\Debug\Hackathon05_1.exe
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\bin\Debug\Hackathon05_1.pdb
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.csproj.AssemblyReference.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.csproj.SuggestedBindingRedirects.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.Form1.resources
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.Properties.Resources.resources
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.csproj.GenerateResource.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.csproj.CoreCompileInputs.cache
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.exe
+C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon05_1\obj\Debug\Hackathon05_1.pdb
