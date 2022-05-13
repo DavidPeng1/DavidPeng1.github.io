@@ -54,6 +54,3 @@ GitHub倉庫裡的圖片, 與上面的格式基本一致的，所不同的就是
 ![](https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp "Bulid School Logo")
 
 
-
-
-
