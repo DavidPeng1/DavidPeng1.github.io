@@ -54,20 +54,13 @@ GitHub倉庫裡的圖片, 與上面的格式基本一致的，所不同的就是
 ![](https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp "Bulid School Logo")
 
 
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="./CSSreset.css">   
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Add Kit's Code to a Project -->
-    <script src="https://kit.fontawesome.com/c8cecb51ea.js" crossorigin="anonymous"></script>
+```html=
+<!-- CSS Reset -->
+<link rel="stylesheet" href="./CSSreset.css">   
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Add Kit's Code to a Project -->
+<script src="https://kit.fontawesome.com/c8cecb51ea.js" crossorigin="anonymous"></script>
+```
 
