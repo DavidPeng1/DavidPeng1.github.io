@@ -52,7 +52,8 @@ GitHub倉庫裡的圖片, 與上面的格式基本一致的，所不同的就是
 範例 : `https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp`
 <br>
 ![](https://raw.githubusercontent.com/DavidPeng1/DavidPeng1.github.io/main/Build%20School%20Logo.webp "Bulid School Logo")
-
+<br>
+插入程式碼在`開頭處加入``` + 語言別, 如html=`內寫入超連結要顯示的文字
 
 ```html=
 <!doctype html>
