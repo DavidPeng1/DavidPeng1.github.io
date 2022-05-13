@@ -1,8 +1,0 @@
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\bin\Debug\Q3_PrimeNumber.exe.config
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\bin\Debug\Q3_PrimeNumber.exe
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\bin\Debug\Q3_PrimeNumber.pdb
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.csproj.SuggestedBindingRedirects.cache
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.csproj.CoreCompileInputs.cache
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.exe
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.pdb
-C:\BuildSchool\C#\BuildSchoolPreExam\Q3_PrimeNumber\obj\Debug\Q3_PrimeNumber.csproj.AssemblyReference.cache

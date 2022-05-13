@@ -1,8 +1,0 @@
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\bin\Debug\Hackathon03.exe.config
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\bin\Debug\Hackathon03.exe
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\bin\Debug\Hackathon03.pdb
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\obj\Debug\Hackathon03.csproj.AssemblyReference.cache
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\obj\Debug\Hackathon03.csproj.SuggestedBindingRedirects.cache
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\obj\Debug\Hackathon03.csproj.CoreCompileInputs.cache
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\obj\Debug\Hackathon03.exe
-C:\BuildSchool\C#\Hackathon01\Hackathon 01\Hackathon03\obj\Debug\Hackathon03.pdb

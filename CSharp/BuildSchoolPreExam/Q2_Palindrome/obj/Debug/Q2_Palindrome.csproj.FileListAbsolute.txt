@@ -1,8 +1,0 @@
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\bin\Debug\Q2_Palindrome.exe.config
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\bin\Debug\Q2_Palindrome.exe
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\bin\Debug\Q2_Palindrome.pdb
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\obj\Debug\Q2_Palindrome.csproj.SuggestedBindingRedirects.cache
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\obj\Debug\Q2_Palindrome.csproj.CoreCompileInputs.cache
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\obj\Debug\Q2_Palindrome.exe
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\obj\Debug\Q2_Palindrome.pdb
-C:\BuildSchool\C#\BuildSchoolPreExam\Q2_Palindrome\obj\Debug\Q2_Palindrome.csproj.AssemblyReference.cache

@@ -1,8 +1,0 @@
-C:\BuildSchool\C#\LinqHomework\LinqHomework\bin\Debug\LinqHomework.exe.config
-C:\BuildSchool\C#\LinqHomework\LinqHomework\bin\Debug\LinqHomework.exe
-C:\BuildSchool\C#\LinqHomework\LinqHomework\bin\Debug\LinqHomework.pdb
-C:\BuildSchool\C#\LinqHomework\LinqHomework\obj\Debug\LinqHomework.csproj.AssemblyReference.cache
-C:\BuildSchool\C#\LinqHomework\LinqHomework\obj\Debug\LinqHomework.csproj.SuggestedBindingRedirects.cache
-C:\BuildSchool\C#\LinqHomework\LinqHomework\obj\Debug\LinqHomework.csproj.CoreCompileInputs.cache
-C:\BuildSchool\C#\LinqHomework\LinqHomework\obj\Debug\LinqHomework.exe
-C:\BuildSchool\C#\LinqHomework\LinqHomework\obj\Debug\LinqHomework.pdb

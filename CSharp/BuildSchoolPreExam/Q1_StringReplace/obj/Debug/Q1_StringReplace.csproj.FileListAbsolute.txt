@@ -1,8 +1,0 @@
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\bin\Debug\Q1_StringReplace.exe.config
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\bin\Debug\Q1_StringReplace.exe
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\bin\Debug\Q1_StringReplace.pdb
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\obj\Debug\Q1_StringReplace.csproj.AssemblyReference.cache
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\obj\Debug\Q1_StringReplace.csproj.SuggestedBindingRedirects.cache
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\obj\Debug\Q1_StringReplace.csproj.CoreCompileInputs.cache
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\obj\Debug\Q1_StringReplace.exe
-C:\BuildSchool\C#\BuildSchoolPreExam\Q1_StringReplace\obj\Debug\Q1_StringReplace.pdb
